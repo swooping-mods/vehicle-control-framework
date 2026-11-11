@@ -1,5 +1,7 @@
 # Vehicle Control Framework
 
+<img src="media/icon.png" alt="Vehicle Control Framework icon" width="128" height="128">
+
 Shared wheel, GPS and Edge Cruise input with per-car assistance ownership.
 
 ## Install
