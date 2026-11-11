@@ -1,0 +1,30 @@
+{
+  "id": "vehicle-control-framework",
+  "kind": "native",
+  "version": "0.1.0",
+  "display_name": "Vehicle Control Framework",
+  "gameplay": true,
+  "feature_dependencies": [
+    "vehicle-framework"
+  ],
+  "play_help": [
+    "Shared input arbitration for wheel controls, Edge Cruise and Satellite GPS."
+  ],
+  "requires_apis": [
+    {
+      "api": "vehicle-framework.autonomous",
+      "abi": 1,
+      "min_size": 48
+    }
+  ],
+  "provides": {
+    "vehicle-control-framework.controls": {
+      "abi": 1,
+      "size": 72,
+      "limits": {
+        "max_providers": 16,
+        "max_cars": 64
+      }
+    }
+  }
+}
